@@ -10,9 +10,9 @@ The project is currently in the **Setup** phase. The repository contains initial
 
 The project is being prepared as a Node.js project. The application framework, runtime configuration, and dependencies have not yet been selected.
 
-## Repository Structure
+## Getting Started
 
-The repository currently contains project documentation and configuration guidance. Application source folders will be introduced when the implementation phase begins.
+There is no application code, package manifest, or dependency installation step yet. For the current Setup phase, review the project documentation and development guidance. This section will be updated with installation and run commands when implementation begins.
 
 ## Development
 
