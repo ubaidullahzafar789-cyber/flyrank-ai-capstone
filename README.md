@@ -12,11 +12,7 @@ The project is being prepared as a Node.js project. The application framework, r
 
 ## Getting Started
 
-There is no application code, package manifest, or dependency installation step yet. For the current Setup phase, review the project documentation and development guidance. This section will be updated with installation and run commands when implementation begins.
-
-## Development
-
-No application commands or dependencies are defined yet. Update this section when the project has an implementation and documented development workflow.
+There is no application code, package manifest, dependency installation step, or command to run yet. For the current Setup phase, review the project documentation and development guidance. This section will be updated with installation and run commands when implementation begins.
 
 ## Contribution Guidelines
 
