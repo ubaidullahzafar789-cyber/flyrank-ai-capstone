@@ -17,10 +17,14 @@ Update this section when the technology stack is established.
 - Inspect the existing files, documentation, and relevant call sites before making changes.
 - Keep changes small, focused, simple, and maintainable.
 - Preserve existing behavior unless the requested change requires otherwise.
+- When adding a feature, preserve existing navigation, settings controls, persistence, reset behavior, and other user-visible functionality unless removal is explicitly required.
 - Prefer clear code and established project patterns over clever abstractions.
 - Do not add application code, configuration, or dependencies without a current project need.
 - Avoid unnecessary dependencies. Before adding one, confirm that the standard library or an existing dependency cannot reasonably solve the problem, and document the reason for the addition.
 - Add or update focused tests when implementing behavior that can be tested.
+- Build forms with semantic HTML, properly associated labels, clear inline validation messages, and accessibility attributes such as `aria-describedby` and `aria-invalid` where needed.
+- Validate required fields, including whitespace-only input, prevent invalid submission, and test important validation edge cases.
+- Before considering a feature complete, update relevant tests, run the project's test command when one is configured, review changed files, and check for regressions in existing behavior.
 - Keep documentation accurate as the project evolves.
 
 ## Coding Conventions
