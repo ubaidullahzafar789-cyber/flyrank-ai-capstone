@@ -4,15 +4,15 @@ This repository is the starting point for a FlyRank AI internship capstone proje
 
 ## Project Status
 
-The project is currently in the **Setup** phase. The repository contains initial project documentation and development guidance only. Application requirements, architecture, implementation details, and supporting tooling will be added as the project progresses.
+The project includes a small dependency-free settings form.
 
 ## Technology
 
-The project is being prepared as a Node.js project. The application framework, runtime configuration, and dependencies have not yet been selected.
+The project uses plain HTML, CSS, and JavaScript. Node.js is used to run the test suite.
 
 ## Getting Started
 
-There is no application code, package manifest, dependency installation step, or command to run yet. For the current Setup phase, review the project documentation and development guidance. This section will be updated with installation and run commands when implementation begins.
+Open `index.html` in a browser to use the settings form. Run `npm test` to execute the validation tests. No dependency installation is required.
 
 ## Contribution Guidelines
 

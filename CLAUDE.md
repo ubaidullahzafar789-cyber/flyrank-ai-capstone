@@ -6,10 +6,9 @@ This repository is the FlyRank AI internship capstone project. It is currently i
 
 ## Current Technology Stack
 
-- Node.js project foundation
-- No application framework selected yet
-- No runtime dependencies selected yet
-- No build, test, or lint tooling configured yet
+- Plain HTML, CSS, and JavaScript for the application
+- Node.js built-in test runner for tests
+- No runtime dependencies
 
 Update this section when the technology stack is established.
 

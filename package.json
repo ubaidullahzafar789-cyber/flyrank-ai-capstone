@@ -1,0 +1,7 @@
+{
+  "name": "flyrank-ai-capstone",
+  "private": true,
+  "scripts": {
+    "test": "node --test"
+  }
+}
