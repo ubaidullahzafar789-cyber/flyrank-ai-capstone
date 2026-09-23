@@ -2,13 +2,12 @@
 
 ## Project Purpose
 
-This repository is the FlyRank AI internship capstone project. It is currently in the Setup phase. Future work should add only the application functionality defined by the project requirements and should keep the implementation understandable for an internship project.
+This repository is the FlyRank AI internship capstone project. It currently contains a small, dependency-free settings form. Future work should add only the application functionality defined by the project requirements and should keep the implementation understandable for an internship project.
 
 ## Current Technology Stack
 
-- Node.js project foundation
-- No application framework selected yet
-- No runtime dependencies selected yet
+- Plain HTML, CSS, and JavaScript
+- No runtime dependencies
 - No build, test, or lint tooling configured yet
 
 Update this section when the technology stack is established.

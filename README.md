@@ -4,15 +4,15 @@ This repository is the starting point for a FlyRank AI internship capstone proje
 
 ## Project Status
 
-The project is currently in the **Setup** phase. The repository contains initial project documentation and development guidance only. Application requirements, architecture, implementation details, and supporting tooling will be added as the project progresses.
+The project currently includes a dependency-free settings form for the FlyRank workspace. It provides profile fields, notification preferences, reset behavior, and browser-local persistence.
 
 ## Technology
 
-The project is being prepared as a Node.js project. The application framework, runtime configuration, and dependencies have not yet been selected.
+The settings form uses plain HTML, CSS, and JavaScript. It has no runtime dependencies or build step.
 
 ## Getting Started
 
-There is no application code, package manifest, dependency installation step, or command to run yet. For the current Setup phase, review the project documentation and development guidance. This section will be updated with installation and run commands when implementation begins.
+Open [index.html](index.html) in a browser. The form works without a server; saved settings are stored in that browser's local storage.
 
 ## Contribution Guidelines
 

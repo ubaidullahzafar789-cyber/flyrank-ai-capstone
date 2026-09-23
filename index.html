@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FlyRank account settings">
+  <title>Settings | FlyRank</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Primary navigation">
+      <a class="brand" href="index.html" aria-label="FlyRank home">
+        <span class="brand-mark" aria-hidden="true">F</span>
+        <span>flyrank</span>
+      </a>
+
+      <nav class="nav-list">
+        <a href="#overview"><span aria-hidden="true">◌</span>Overview</a>
+        <a href="#projects"><span aria-hidden="true">▦</span>Projects</a>
+        <a class="active" href="#settings" aria-current="page"><span aria-hidden="true">⚙</span>Settings</a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <span class="status-dot" aria-hidden="true"></span>
+        <span>All systems normal</span>
+      </div>
+    </aside>
+
+    <main class="main-content" id="settings">
+      <header class="page-header">
+        <div>
+          <p class="eyebrow">Workspace / account</p>
+          <h1>Settings</h1>
+          <p class="intro">Keep your profile and workspace preferences up to date.</p>
+        </div>
+        <div class="avatar" aria-label="Signed in as Alex Morgan">AM</div>
+      </header>
+
+      <form class="settings-form" id="settings-form">
+        <section class="settings-section" aria-labelledby="profile-heading">
+          <div class="section-heading">
+            <span class="section-number">01</span>
+            <div>
+              <h2 id="profile-heading">Profile details</h2>
+              <p>How you appear across your FlyRank workspace.</p>
+            </div>
+          </div>
+
+          <div class="field-grid">
+            <label class="field">
+              <span>Full name</span>
+              <input type="text" name="fullName" value="Alex Morgan" autocomplete="name" required>
+            </label>
+            <label class="field">
+              <span>Email address</span>
+              <input type="email" name="email" value="alex.morgan@example.com" autocomplete="email" required>
+            </label>
+            <label class="field field-wide">
+              <span>Role</span>
+              <select name="role">
+                <option>Software engineer</option>
+                <option>Product designer</option>
+                <option>Project manager</option>
+                <option>Student</option>
+              </select>
+            </label>
+          </div>
+        </section>
+
+        <section class="settings-section" aria-labelledby="preferences-heading">
+          <div class="section-heading">
+            <span class="section-number">02</span>
+            <div>
+              <h2 id="preferences-heading">Preferences</h2>
+              <p>Choose how FlyRank keeps you informed.</p>
+            </div>
+          </div>
+
+          <div class="preference-list">
+            <label class="preference-row">
+              <span>
+                <strong>Weekly progress summary</strong>
+                <small>Get a Monday digest of project activity.</small>
+              </span>
+              <input class="toggle" type="checkbox" name="weeklySummary" checked>
+            </label>
+            <label class="preference-row">
+              <span>
+                <strong>Product updates</strong>
+                <small>Hear about new tools and improvements.</small>
+              </span>
+              <input class="toggle" type="checkbox" name="productUpdates">
+            </label>
+            <label class="preference-row">
+              <span>
+                <strong>Compact navigation</strong>
+                <small>Give your workspace a little more room.</small>
+              </span>
+              <input class="toggle" type="checkbox" name="compactNavigation">
+            </label>
+          </div>
+        </section>
+
+        <div class="form-actions">
+          <p class="save-message" id="save-message" role="status" aria-live="polite"></p>
+          <button class="button button-secondary" type="button" id="reset-button">Reset</button>
+          <button class="button button-primary" type="submit">Save changes <span aria-hidden="true">→</span></button>
+        </div>
+      </form>
+    </main>
+  </div>
+</body>
+</html>
